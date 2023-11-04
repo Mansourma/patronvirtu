@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+body {
+    background-color: #F5F5F5;  
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+  
+    padding: 30px;
+    background-color: #F5F5F5;
+    
+    box-shadow: 0 0.14px 2.29266px rgba(0,0,0,0.03),
+     0 0.37px 4.42626px rgba(0,0,0,0.05),
+     0 3px 7px rgba(0,0,0,0.09);
+}
+.bg-light {
+    background-color:  #F5F5F5 !important;  
+    
+}
+
+header .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar form {
+    flex: 3;
+    display: flex;
+}
+.nav-item a{
+    color: #255395;
+}
+
+header .navbar form input {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 1.6rem;
+}
+
+header .navbar form button {
+    min-width: 100px;
+    font-size: 1.6rem;
+}
+
+header .navbar .nav-link {
+    margin-left: 10px;
+    font-size: 1.6rem;
+}
+.btn-success{
+    font-size: 1.6rem;
+    width: 90px;
+    height: 100%;
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 3px;
+}
+
+.btn-success:hover{
+    background-color: #0056b3;
+    color: #fff;
+    
+}
+
+.btn-primary{
+    font-size: 1.6rem;
+    border-radius: 15px;
+
+}
+.submit{
+    width: 90px;
+    height: 100%;
+}
+#search-results {
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+font-size: 1.6rem;
+}
+
+#search-results .card {
+max-width: 300px;
+flex: 1 1 210px;
+text-align: center;
+border: 1px solid lightgray;
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+background-color: #fff;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+height: 480px;
+}
+
+#search-results .card .image {
+height: 200px;
+    overflow: hidden;
+}
+
+#search-results .card .image img {
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#search-results .card .caption {
+height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#search-results .card .caption .product_name {
+font-size: 1.8rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 5.4rem;
+    margin-bottom: 10px;
+}
+
+#search-results .card .caption .quantity {
+font-size: 1.4rem;
+}
+
+#search-results .card .caption .rating {
+font-size: 1.6rem;
+margin-bottom: 10px;
+
+
+}
+
+#search-results .card .caption .price {
+font-size: 2rem;
+
+}
+
+#search-results .card .caption .discount {
+font-size: 1.4rem;
+color: #999;
+text-decoration: line-through;
+}
+
+#search-results .card button.add {
+border: none;
+
+    padding: 1em 2em;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#search-results .card button.add:hover {
+    background-color: #0056b3;
+}
+
+main {
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .card {
+    max-width: 300px;
+    flex: 1 1 210px;
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(202, 7, 7, 0.1);
+    height: 480px;
+}
+
+main .card .image {
+    height: 200px;
+    overflow: hidden;
+}
+
+main .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main .card .caption {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+main .card .caption .product_name {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 auto;
+display: block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 5.4rem;
+    margin-bottom: 10px;
+}
+
+main .card .caption .quantity {
+    font-size: 1.4rem;
+    margin: 0 auto;
+display: block;
+}
+
+main .card .caption .price {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .card .caption .discount {
+    font-size: 1.4rem;
+    color: #999;
+    text-decoration: line-through;
+}
+.rating {
+    margin: 0 auto;
+display: block;
+}
+
+main .card button.add {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding: 1em 2em;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+main .card button.add:hover {
+    background-color: #0056b3;
+}
+#cart-count{
+    color: rgb(206, 14, 11);
+    font-size: 1.8rem;  
+ 
+}
+#logo{
+    font-size: larger;
+font-weight: bold;
+
+}
+#logo1{
+    font-weight: bold;
+    font-size: larger;
+    color: #007bff;
+}
+#category {
+    display: flex;
+    justify-content: center;
+}
+
+#category {
+  
+    width: 17%;
+    padding: 10px;
+    color: #000000bf;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.dropbtn{
+    font-size: 1.6rem;
+    width: 90px;
+    height: 100%;
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 3px;
+    margin-left: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    font-size: 1.4rem;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

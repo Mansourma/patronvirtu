@@ -1,0 +1,62 @@
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Assassin\'s Creed 3', 49.99, 10, 4.5, 'Experience the American Revolution in Assassin\'s Creed 3.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Dirt Rally 2', 39.99, 5, 4.2, 'Get ready for intense off-road racing in Dirt Rally 2.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Dead Island 2', 49.99, 8, 4.3, 'Survive against hordes of zombies in Dead Island 2.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('FIFA 23', 59.99, 12, 4.6, 'Play the latest installment of the popular FIFA series.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('LEGO DC', 29.99, 20, 4.4, 'Join your favorite DC superheroes in a LEGO adventure.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('LEGO DC Young', 39.99, 15, 4.5, 'Embark on a heroic journey with young DC superheroes in LEGO DC Young.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Monster Hunter World', 49.99, 10, 4.7, 'Hunt giant monsters in this action-packed adventure.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('No Man\'s Sky', 39.99, 7, 4.3, 'Explore an infinite procedurally generated universe in No Man\'s Sky.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Pavlov', 29.99, 10, 4.1, 'Engage in realistic VR combat in Pavlov.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Project Car 3', 59.99, 8, 4.6, 'Experience the thrill of realistic racing in Project Car 3.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Deluxe 1 Month', 9.99, 100, 4.8, 'Get access to exclusive PlayStation features with the Deluxe 1 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Deluxe 3 Month', 24.99, 100, 4.9, 'Enjoy three months of premium PlayStation services with the Deluxe 3 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Deluxe 12 Month', 59.99, 100, 4.9, 'Unlock a year of exciting PlayStation benefits with the Deluxe 12 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Extra 1 Month', 14.99, 100, 4.7, 'Enhance your PlayStation experience with the Extra 1 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Extra 3 Month', 34.99, 100, 4.8, 'Extend your PlayStation privileges for three months with the Extra 3 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Extra 12 Month', 79.99, 100, 4.9, 'Enjoy a full year of additional PlayStation benefits with the Extra 12 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Essential 12 Month', 49.99, 100, 4.7, 'Access essential PlayStation features for a year with the Essential 12 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Essential 3 Month', 19.99, 100, 4.5, 'Get three months of vital PlayStation services with the Essential 3 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('PlayStation Essential 1 Month', 7.99, 100, 4.4, 'Experience essential PlayStation benefits for a month with the Essential 1 Month subscription.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Resident Evil 4', 39.99, 10, 4.8, 'Survive a zombie-infested village in Resident Evil 4.', 'PlayStation');
+
+INSERT INTO products (name, price, quantity, rating, description, category)
+VALUES ('Sniper Contracts 2', 49.99, 8, 4.6, 'Take on high-stakes sniper contracts in Sniper Contracts 2.', 'PlayStation');

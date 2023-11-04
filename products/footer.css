@@ -1,0 +1,177 @@
+  /* CSS styles for the footer */
+  @import url('https://fonts.cdnfonts.com/css/ahellya');
+
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  .footer {
+      background-color: #a8c7fb;
+      padding: 50px;
+      font-size: 16px;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer h3 {
+      font-size: 25px;
+      margin-bottom: 5px;
+      font-weight: bolder;
+  }
+
+  .footer-brand {
+      margin-bottom: 20px;
+  }
+
+  .footer-brand img {
+      max-width: 150px;
+  }
+
+  .footer-body {
+      width: 100%;
+  }
+
+  .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+  }
+
+  a {
+      text-decoration: none;
+      color: #5b5b5b;
+  }
+
+  .footer-item {
+      margin-bottom: 30px;
+  }
+
+  .footer-list li {
+      margin-bottom: 10px;
+  }
+
+  .newsletter h3 {
+      font-size: medium;
+  }
+
+  .detail-para {
+      font-size: 13px;
+  }
+
+  .detail-para a {
+      text-decoration: underline;
+  }
+
+  /* Updated styles */
+
+  @media only screen and (max-width: 768px) {
+      .grid-3 {
+          grid-template-columns: repeat(2, 1fr);
+      }
+  }
+
+  /* Improved spacing and margin */
+
+  .grid-3 {
+      margin-top: 30px;
+  }
+
+  .footer-item {
+      text-align: center;
+  }
+
+  .footer-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+
+  .footer-list li {
+      margin-bottom: 5px;
+  }
+
+  /* Improved submit button and input */
+
+  .form-group {
+      margin-bottom: 20px;
+  }
+
+  .input-group {
+      display: flex;
+  }
+
+  .form-control {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+
+  .btn-primary {
+      padding: 8px 20px;
+      border: none;
+      margin-left: 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007bff;
+      cursor: pointer;
+  }
+
+  .btn-primary:hover {
+      background-color: #0056b3;
+  }
+
+.footer p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-links li {
+    display: block;
+    margin-right: 10px;
+}
+
+.footer .footer-links li a {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .contact-info li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .contact-info li i {
+    color: #333;
+    margin-right: 10px;
+}
+.error-message {
+    color: red;
+}
