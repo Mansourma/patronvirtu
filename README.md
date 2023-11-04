@@ -57,6 +57,16 @@ This project is licensed under the [MIT License](LICENSE).
 - The open-source community for their contributions to the software development world.
 
 Please feel free to reach out if you have any questions or encounter any issues while using Patronvirtu. We're here to help. Happy coding!
+## screenshots from project
+1. **user interface**:
+   ![Screenshot 2023-11-04 212427](https://github.com/Mansourma/patronvirtu/assets/106098320/92e69a37-fb3b-4137-bf6e-4e844c5a74bb)
+![Screenshot 2023-11-04 212510](https://github.com/Mansourma/patronvirtu/assets/106098320/29d80076-f25c-42d4-af50-a1b2b57e4196)
+![Screenshot 2023-11-04 212335](https://github.com/Mansourma/patronvirtu/assets/106098320/9d99363f-8c48-4e40-b29c-59d0109fb394)
+![Screenshot 2023-11-04 212226](https://github.com/Mansourma/patronvirtu/assets/106098320/668fa34c-639f-4f15-90e0-6a1a544ee8d0)
+2. **simple crud application**:
+![Screenshot 2023-11-04 212614](https://github.com/Mansourma/patronvirtu/assets/106098320/bfc10244-abb9-4654-a99c-413c97377209)
+![Screenshot 2023-11-04 212829](https://github.com/Mansourma/patronvirtu/assets/106098320/faf2317e-eda9-45b1-b6d6-6df338e6f4d6)
+
 
 
 
