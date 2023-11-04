@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     $recaptchaResponse = $_POST['g-recaptcha-response'];
     $url = 'https://www.google.com/recaptcha/api/siteverify';
     $data = [
-        'secret' => '6LcV_n4mAAAAAOecTpRx8kknZxv2WJ7XvfJzD6tY',
+        'secret' => 'your_captcha_secret_key',
         'response' => $recaptchaResponse
     ];
 
@@ -147,7 +147,7 @@ if (isset($_POST['submit'])) {
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="g-recaptcha" data-sitekey="6LcV_n4mAAAAAP5GYHUjR3kU7tzYIcn88AZ1-5W5"></div>
+                                    <div class="g-recaptcha" data-sitekey="captcha_key"></div>
                                 </div>
                                 <div class="form-group text-right">
                                     <div class="float-left mt-2">
