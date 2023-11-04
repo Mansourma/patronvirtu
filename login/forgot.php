@@ -65,12 +65,12 @@
                       $mail->isSMTP();
                       $mail->Host       = 'smtp.gmail.com';
                       $mail->SMTPAuth   = true;
-                      $mail->Username   = 'fcbvsrma11@gmail.com';
-                      $mail->Password   = 'etrkegqbqierkjfq';
+                      $mail->Username   = 'your_smtp_mail';
+                      $mail->Password   = 'smtp_password';
                       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                       $mail->Port       = 465;
 
-                      $mail->setFrom('fcbvsrma11@gmail.com'); // Replace with your Gmail address
+                      $mail->setFrom('your_smtp_mail'); // Replace with your Gmail address
                       $mail->addAddress($email);
 
                       $verificationLink = "http://localhost/digiProducts/login/resetpassword.php?verification=" . urlencode($code);
