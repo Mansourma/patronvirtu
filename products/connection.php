@@ -4,7 +4,7 @@
 
 $servername = "127.0.0.1:3308";
 $username = "root";
-$password = "MOHAmed.@98765";
+$password = "your_password";
 $db_name = "patronvirtu";
 
 $conn = new mysqli($servername,$username,$password,$db_name);
